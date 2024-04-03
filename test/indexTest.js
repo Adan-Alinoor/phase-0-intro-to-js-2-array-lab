@@ -1,4 +1,4 @@
-require ( './helpers.js' );
+require('./helpers.js');
 
 describe('index.js', function () {
   describe('cats', function () {
@@ -10,7 +10,6 @@ describe('index.js', function () {
   describe('Array functions', function () {
     beforeEach(function () {
       cats.length = 0;
-
       cats.push('Milo', 'Otis', 'Garfield');
     });
 
@@ -79,3 +78,4 @@ describe('index.js', function () {
     });
   });
 });
+
